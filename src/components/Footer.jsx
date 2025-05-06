@@ -6,13 +6,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-icons">
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/imase_x077/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={24} />
           </a>
           <a href="https://github.com/27502" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} />
           </a>
-          <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/Natsu_nakamura" target="_blank" rel="noopener noreferrer">
             <FaTelegramPlane size={24} />
           </a>
         </div>
