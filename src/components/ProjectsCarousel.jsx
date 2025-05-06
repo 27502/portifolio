@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
-import './ProjectCarousel.css';
+import './projectCarousel.css';
 
 const ProjectsCarousel = () => {
   return (
