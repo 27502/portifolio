@@ -1,0 +1,51 @@
+.about-section {
+    padding: 80px 40px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    animation: typing 2s steps(20, end), blink 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+  }
+  
+  .about-description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInText 2s ease-in-out 2s forwards;
+    opacity: 0;
+  }
+  
+  /* Harf-harf yozish effekti */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  /* Paragraf smooth ko‘rinishi */
+  @keyframes fadeInText {
+    to {
+      opacity: 1;
+    }
+  }
+  
